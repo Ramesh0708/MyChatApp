@@ -7,3 +7,5 @@ In this tutorial, I'll show you how to leverage Firebase UI to create a group ch
 
 As you might have guessed, the app will depend on Firebase Auth to manage user registration and sign in. It will also use Firebase's real-time database to store the group chat messages.
 
+Source Through which I Build This App : 
+https://code.tutsplus.com/tutorials/how-to-create-an-android-chat-app-using-firebase--cms-27397
