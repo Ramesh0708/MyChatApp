@@ -1,11 +1,19 @@
 # MyChatApp
 
-How to Create an Android Chat App Using Firebase
-With Firebase, creating real-time social applications is a walk in the park. And the best thing about it: you don't have to write a single line of server-side code.
+A simple Android group chat app with one public chat room, built on Firebase. There's no server code of its own.
 
-In this tutorial, I'll show you how to leverage Firebase UI to create a group chat app you can share with your friends. It's going to be a very simple app with just one chat room, which is open to all users.
+## Features
+- Sign-up and sign-in with FirebaseUI Auth
+- Real-time group messages stored in Firebase Realtime Database (`ChatMessage` model)
+- Single chat room open to all signed-in users
 
-As you might have guessed, the app will depend on Firebase Auth to manage user registration and sign in. It will also use Firebase's real-time database to store the group chat messages.
+## Tech stack
+Java, Android SDK (compileSdk 28, minSdk 16), Firebase Auth, Realtime Database, FirebaseUI.
 
-Source Through which I Build This App : 
-https://code.tutsplus.com/tutorials/how-to-create-an-android-chat-app-using-firebase--cms-27397
+## Build
+1. Create a Firebase project with Authentication and Realtime Database enabled.
+2. Put your own `google-services.json` in `app/`.
+3. Open the project in Android Studio and run it, or use `./gradlew assembleDebug`.
+
+## Credits
+Built by following [How to Create an Android Chat App Using Firebase](https://code.tutsplus.com/tutorials/how-to-create-an-android-chat-app-using-firebase--cms-27397) (Envato Tuts+).
